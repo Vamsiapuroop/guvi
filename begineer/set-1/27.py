@@ -1,8 +1,8 @@
 l=list(input())
 j=0
-while(j<len(k)):
-    temp=k[j]
-    k[j]=k[j+1]
-    k[j+1]=temp
+while(j<len(l)):
+    temp=l[j]
+    l[j]=l[j+1]
+    l[j+1]=temp
     j+=2
-print("".join(k))
+print("".join(l))
