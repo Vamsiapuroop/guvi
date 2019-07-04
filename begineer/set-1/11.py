@@ -1,4 +1,4 @@
 n=int(input())
-k=int(input())
-m=n**k
-print(m)
+t=int(input())
+b=n**t
+print(b)
