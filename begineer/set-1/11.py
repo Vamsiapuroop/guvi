@@ -1,4 +1,2 @@
-n=int(input())
-t=int(input())
-b=n**t
-print(b)
+a,b = map(int,input().split())
+print(pow(a,b))
