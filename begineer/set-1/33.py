@@ -8,7 +8,7 @@ for i in range(len(l)-1):
 
 if len(z)>0:
     for x in z:
-        print(x,end="")
+        print(x,end=" ")
 else:
     print("-1")
             
