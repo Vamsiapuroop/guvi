@@ -1,7 +1,7 @@
 n=int(input())
 l=list(map(int,input().split()))
 z=[]
-for i in range(len(l)-1):
+for i in range(0,n):
     if l[i]==i:
         z.append(i)
         z.sort()
