@@ -1,8 +1,8 @@
-n=int(input())
-l=list(map(int,input().split()))
+t=int(input())
+li=list(map(int,input().split()))
 z=[]
-for i in range(0,n):
-    if l[i]==i:
+for i in range(0,t):
+    if li[i]==i:
         z.append(i)
         z.sort()
 
