@@ -1,4 +1,4 @@
-n,a,d=map(int,input().split())
-m=(n/2)*((2*a)+(n-1)*d)
+a,b,c=map(int,input().split())
+m=(a/2)*((2*b)+(n-1)*c)
 print(int(m))
 
