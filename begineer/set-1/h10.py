@@ -4,5 +4,5 @@ B=list(map(int,input().split()))
 if set(B).issubset(set(A)):
     print("YES")       
 else:
-    print("no")
+    print("NO")
        
