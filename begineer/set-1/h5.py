@@ -1,4 +1,4 @@
-num=list(map(str,input()))
+n=list(map(str,input()))
 set=cs=0
 for i in range(0,len(num)-1):
   q=num[i]
