@@ -1,6 +1,0 @@
-n,k=map(int,input().split())
-l=list(map(int,input().split()))
-l.sort()
-m=l.index(k)
-l.pop(m)
-print(l[0],l[1],l[2])
