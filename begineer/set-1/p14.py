@@ -1,10 +1,12 @@
-n,q=map(int,input().split())
-l=list(map(int,input().split()))
-for i in range(q):
-    a,b=map(int,input().split())
-    sl = l[a-1:b]
-    out = sl[0]
-    for i in range(1,len(sl)):
-        out = out ^ sl[i]
-    print(out)
+n=int(input())
+s=list(map(int,input().split()))
+t=[]
+for i in range(len(s)):
+    m=bin(s[i]).replace("0b"," ")
+    t.append(m)
+    t.sort(reverse=True)
+for j in t:
+    print(int(j,2))
+           
     
+
