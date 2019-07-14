@@ -1,4 +1,4 @@
-a,b = map(str,input().split())
+p,q = map(str,input().split())
 m = 0
 if len(a)>len(b):
 	a,b=b,a
