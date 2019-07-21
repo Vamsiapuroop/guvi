@@ -1,9 +1,14 @@
-n=input()
+p=input()
 li=list(map(int,input().split()))
-x=0
-a=1
-for i in li:
-    if x<len(li)-1 and li[i]<li[i+1]:
-        a+=1
-print(a)
+maximum=0
+i=0
+while(i<len(li)-1):
+    count=0
+    while(i<len(li)-1 and li[i]<li[i+1]):
+        count+=1
+        i+=1
+    if(count>maximum):
+        maximum=count
+    i+=1
+print(maximum+1)
     
