@@ -1,6 +1,8 @@
+st=str(input())
 mx=""
-str=str(input())
-for i in range(len(str)):
-    mx=max(mx,str[i:])
-print(mx)
+if mx<st:
+    for i in range(len(st)):
+        mx=max(mx,st[i:])
+    print(mx)
     
+
