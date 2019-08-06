@@ -1,6 +1,7 @@
 n=str(input())
-m=n.count("123")
-if m==1:
-    print(3)
-else:
-    print(m+1)
+c=0
+for i in n:
+    if i.isdigit():
+        c+=1
+print(c)
+
