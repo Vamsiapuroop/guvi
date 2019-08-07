@@ -1,5 +1,5 @@
 n=input().split()
-if n=="Sunday" or n=="Saturday":
+if n=="Sunday" or "Saturday":
     print("yes")
 else:
     print("no")
